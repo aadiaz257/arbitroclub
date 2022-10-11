@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+}
+
+nav.cancha ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav.cancha #cancha{
+    display: inline-block;
+    font-size: 16px;
+    padding: auto;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+
+nav.cancha #cancha-content{
+    position: absolute;
+    top: 30px;
+    z-index: 999;
+    background-color: #fff;
+    padding:auto;
+    width: 450px;
+    border-radius:10px 0 10px 10px;
+    display:none;
+}

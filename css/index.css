@@ -1,0 +1,137 @@
+@import url(../fonts/GothamBook.css);
+@import url(../fonts/GothamBold.css);
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: sans-serif;
+    height: 100%;
+  }
+
+a {
+    text-decoration: none;
+    font-family: arial;
+    letter-spacing: 1px;
+  }
+
+.diseno{
+  margin: 0.5em;
+  padding: 0.5em;
+  float: left;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+   .welcome {
+    color: gray;
+    background-color: transparent;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+  }
+  .header {
+    color: #fff;
+    background-color: #168100;
+    height: 35px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .header h1
+  {
+    text-align: center;
+  }
+  nav ul {
+    background: #b80f22;
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  nav ul > li a {
+    position: relative;
+  }
+  nav a {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 10pt;
+    font-family: "GothamBook";
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background 0.5s;
+    border-right: 1px solid #b80f22;
+    font-weight: 800;
+  }
+  nav .principal > a {
+    background: url(../image/arrow_bottom.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-position: 94% center;
+    background-size: 10px;
+     text-decoration: none;
+  }
+  nav .aprincipal > a {
+    background: url(../image/arrow_bottom.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-position: 94% center;
+    background-size: 10px;
+     text-decoration: none;
+
+  }
+
+  nav ul li:hover ul {
+    display: block;
+    background: #f09090;
+  }
+  nav li ul {
+    background: #edcaca;
+    /*background: #2d9872;*/
+    display: none;
+    padding: 0px 10px 0px 10px;
+    flex-direction: column;
+    position: absolute;
+    align-items: left;
+    border-radius: 3px 3px;
+    z-index: 3;
+  }
+  nav li ul a {
+    position: relative;
+    padding: 3px 4px 3px 4px;
+    border-right: initial;
+    text-decoration: none;
+  }
+  nav li ul a:hover {
+    background: #f09090;    
+    /*background: #147556;*/
+  }
+  nav li ul li:last-child {
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+  }
+
+  #container {
+    padding: 190px 30px 30px 190px;
+  }
+  
